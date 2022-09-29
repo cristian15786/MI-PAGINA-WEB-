@@ -9,16 +9,16 @@
 }
 .container1{
     background-color: rgb(90, 90, 230);
-    box-shadow: 30px 15px 17px rgb(90, 90, 230);
+    box-shadow: 30px 15px 17px rgb(64, 64, 165);
 }
 
 .container2{
     background-color: coral;
-    box-shadow: 30px 15px 17px coral;
+    box-shadow: 30px 15px 17px rgb(105, 86, 79);
 }
 .container3{
     background-color:rgb(50, 190, 45);
-    box-shadow: 30px 15px 17px (50,190,45)
+    box-shadow: 30px 15px 17px rgb(30, 116, 27);
 }
 .tres {
     display: flex;
@@ -27,17 +27,17 @@
 }
 .container4{
     background-color:rgb(200, 40, 40);
-    box-shadow: 30px 15px 17px rgb(200,40,40)
+    box-shadow: 30px 15px 17px rgb(139, 43, 43)
     
 }
 .container5{
     background-color: rgb(210, 150, 45);
-    box-shadow: 30px 15px 17px rgb(210,150,45)
+    box-shadow: 30px 15px 17px rgb(155, 122, 66)
 
 }
 .container6{
     background-color: grey;
-    box-shadow: 30px 15px 17px grey
+    box-shadow: 30px 15px 17px rgb(167, 123, 123)
  
 }
 h2 {
