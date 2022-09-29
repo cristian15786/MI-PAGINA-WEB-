@@ -1,10 +1,20 @@
-th{
-    border: 1px solid black;
-
+.tabla-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+th,td{
+    border: 1px solid black;
+    padding: 10px 12px;
+}
+
 table{
     border-collapse: collapse;
 }
-td{
-    border: 1px solid black;
+
+thead {
+background-color: greenyellow;
+}
+img {
+    width: 115px;
 }
