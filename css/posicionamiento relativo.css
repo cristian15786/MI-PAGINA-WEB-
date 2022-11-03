@@ -1,0 +1,55 @@
+.box-1{
+    width: 500px;
+    height: 100px;
+    border: 2px solid rgb(64, 64, 64);
+    margin: 150px;
+
+
+    }
+    .box-2 {
+        width: 150px;
+        height: 100px;
+        background-color: darkblue;
+        position: relative;
+        top: 100%;
+        left: 30px;
+    }
+    .box-3 {
+        width: 150px;
+        height: 100px;
+        background-color: rgb(0, 255, 106);
+        position: relative;
+        top: 100%;
+        left: 30px;}
+
+        .box-4 {
+            width: 150px;
+            height: 100px;
+            background-color: rgb(255, 81, 0);
+            position: relative;
+            top: 100%;
+            left: 30px;}
+
+            .mini-box{
+                width: 150px;
+                height: 100px;
+                background-color: orange;
+                position: relative;
+                left: 180px;
+                top: -100px;
+              
+            }
+            .segundo-box{
+                width: 150px;
+                height: 100px;
+                background-color: firebrick;
+                position: relative;
+                left: 180px;
+                top: -100px;
+            }
+           .boton-menu{
+            background-color: blue;
+            width: 120px;
+            height: 30px;
+            color: white;
+           }
