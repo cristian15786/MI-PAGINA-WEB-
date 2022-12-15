@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(0, 68, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1 {
+    font-family: 'waltograph42';
+    font-size:  9em;
+    color: rgb(255, 255, 255);
+}
+
+@font-face {
+    font-family: waltograph42;
+    src: url(../font/waltograph/waltograph42.otf);
+}

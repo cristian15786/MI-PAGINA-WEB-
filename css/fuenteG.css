@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1 {
+    font-family: 'Game of Thrones';
+    font-size: 5em;
+    color: aliceblue;
+}
+@font-face {
+    font-family: Game of Thrones;
+    src: url(../font/game-of-thrones/Game\ of\ Thrones.ttf);
+}
