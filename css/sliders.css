@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.toyota1{
+    width: 90%;
+    height: 10%;
+    background-color: rgb(34, 25, 73);
+    display: flex;
+}
+.main-content{
+    display: grid;
+    grid-template:      "empty-left main-nav   empty-right"
+                        "empty-left imagenes-toyota empty-right"/
+                          1fr        1600%            1fr
+}
+
+.main-nav{
+    grid-area: main-nav;
+}
+.main-ul{
+    list-style: none;
+}
+.img-toyota{
+    grid-area: img;
+}
+.main-ul{
+list-style: none;
+font-size: 1.3em;
+}
+.style-item{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.img-logo{
+	height: 100px;
+	width: auto;
+    }

@@ -1,0 +1,1 @@
+let leftArrow = document.getElementById
