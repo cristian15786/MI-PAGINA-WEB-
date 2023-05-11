@@ -10,8 +10,8 @@ header {
   height: 60px;
   width: 100%;
   position: absolute;
-  top: 0;
-  z-index: 2;
+  top: 100;
+  z-index: 20000;
 }
 
 #logo {
@@ -31,13 +31,13 @@ header {
 }
 
 #logo-s {
-  color: black;
+  color: rgb(255, 94, 0);
   /* white */
   margin-left: 5px;
 }
 
 #logo:hover #logo-s {
-  color: #ca0a0a;
+  color: #f16100;
   /* blue */
 }
 
@@ -48,7 +48,7 @@ header {
 }
 
 .sign a {
-  color: #050505;
+  color: #d40000;
   font-weight: bold;
   text-decoration: none;
 }
@@ -69,7 +69,7 @@ header {
 .slider {
   position: relative;
   width: 100%;
-  background: #2c3e50;
+  background: #1a63ac;
   /* darckblue */
 }
 
@@ -129,9 +129,7 @@ header {
   /* blue */
 }
 
-/* /javascript */
 
-/* muslide add fade */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -159,9 +157,7 @@ header {
   }
 }
 
-/* /muslide add fade */
 
-/* 3 */
 .txt {
   position: absolute;
   color: #fff;
@@ -325,4 +321,65 @@ img {
 }
 ul{
   display: flex;
+  width: 80%;
+}
+
+.div-logo{
+  width: 20%;
+}
+
+
+
+.logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 30px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+nav ul li a:hover {
+  background-color: #fff;
+  color: #be0000;
+}
+.logo{
+  width: 120px;  
+}
+.div-nav{
+  display: flex;
+  align-items: center;
+  width: 62.2%;
+}
+.separador{
+  text-align: center;
+  margin-right: 90px;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px;
 }
