@@ -11,4 +11,7 @@ button.addEventListener("click",function(){
 });
 buttonX.addEventListener("click",function(){
     containerQuery.classList.add("main-searcher-query-hidden");
+
+
+    
 })
