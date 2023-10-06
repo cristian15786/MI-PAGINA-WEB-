@@ -1,0 +1,84 @@
+.input-container {
+    text-align: left; /* Alinea el campo de búsqueda a la izquierda */
+    padding: 10px; /* Espaciado interno */
+}
+
+#inputBusqueda {
+    width: 180px; /* Ancho del campo de búsqueda, puedes ajustarlo según tus necesidades */
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cont-head {
+    background-color: rgba(255, 241, 89);
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto 1fr auto auto; /* Cambiamos grid-template a grid-template-columns */
+    justify-content: start; /* Centramos los elementos hacia la izquierda */
+    align-items: center; /* Centramos verticalmente */
+    height: 70px; /* Agregamos una altura fija para el encabezado */
+}
+
+.img-logo {
+    width: 24px;
+    text-align: right;
+}
+
+.menu-hamburguer {
+    position: relative;
+    left: 2px;
+    top: 11px;
+}
+
+.carrito-compra {
+    margin-top: 20px;
+    width: 60px;
+}
+
+.input-busqueda {
+    display: flex;
+    position: relative;
+    top: 20px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cont-head {
+    background-color: rgba(255, 241, 89);
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto 1fr auto; /* Cambiamos grid-template a grid-template-columns */
+    justify-content: start; /* Alinea los elementos hacia la izquierda */
+    align-items: center; /* Centramos verticalmente */
+    height: 70px; /* Agregamos una altura fija para el encabezado */
+}
+
+.img-logo {
+    width: 24px;
+    text-align: right;
+}
+
+.menu-hamburguer {
+    position: relative;
+    left: 2px;
+    top: 11px;
+}
+
+.carrito-compra {
+    margin-top: 20px;
+    width: 60px;
+}
+
+.input-busqueda {
+    display: flex;
+    position: relative;
+    top: 20px;
+}
+    
