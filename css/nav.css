@@ -1,0 +1,28 @@
+nav {
+	top: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header {
+	z-index: 5;
+	position: fixed;
+	padding: 24px;
+	width: 100vw;
+	background-color: var(--white);
+}
+
+@media (min-width: 768px) {
+	header {
+		padding: 24px 40px;
+	}
+}
+
+@media (min-width: 1080px) {
+	nav {
+		max-width: 1114px;
+		width: 1114px;
+		margin: 0 auto;
+	}
+}
