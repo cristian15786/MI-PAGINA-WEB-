@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: white;
+    background-color: rgb(208, 16, 16);
     margin: 25px;
     
 }
@@ -16,17 +16,17 @@ body {
 
 label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 input {
-    padding: 8px;
+    padding: 5px;
     width: 100%;
     box-sizing: border-box;
 }
 
 button {
-    background-color: rgb(63, 74, 226);
+    background-color: rgb(225, 76, 7);
     color: white;
     padding: 10px;
     border: none;
@@ -36,7 +36,7 @@ button {
 }
 
 button:hover {
-    background-color: rgb(63, 74, 226);
+    background-color: rgb(79, 226, 63);
 }
 
 #chartContainer {
@@ -44,7 +44,7 @@ button:hover {
     height: 350px;
     /* border: 1px solid #ddd; */
     border-radius: 5px;
-    margin: 0 auto;
+    margin: 2000 auto;
     text-align: center;
 }
 
@@ -52,7 +52,7 @@ button:hover {
 .bar {
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 1000px;
     border: 1px solid #ddd;
     max-width: 400px;
     transition: background-color 0.3s;
@@ -62,10 +62,14 @@ button:hover {
     margin-bottom: 20px;
 }   
 
-.innerBar {
-    height: 30px;
-    margin-right: 5px;
-}
+    .innerBar {
+        height: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%; 
+    }
+    
+
 
 .label {
     flex-grow: 1;
